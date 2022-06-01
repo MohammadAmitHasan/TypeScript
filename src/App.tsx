@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from './Components/Counter';
 
 let myName: string = 'Muhammad Hasan';
 let myAge: number = 26;
@@ -47,7 +48,7 @@ const sayName = (name: string, times: number):string =>{
 function App() {
   return (
     <div className="App">
-      
+      <Counter></Counter>
     </div>
   );
 }
